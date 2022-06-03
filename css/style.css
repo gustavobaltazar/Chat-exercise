@@ -1,0 +1,192 @@
+body{
+    font-family: 'Consolas', consolas;
+    background-color:#1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+  width: 45vw;
+  text-align: center;
+  background-color: #ffc857;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size:40px;
+  color: whitesmoke;
+}
+b {
+    display: block;
+    text-transform: uppercase;
+    margin: 6px 0;
+}
+
+span {
+    font-size: 15px;
+    height: auto;
+    width: 100%;
+}
+.texto{
+  width: 100%!important;
+  text-align: right;
+  background-color:transparent; 
+  border-radius: 3px;
+  font-weight: bold;
+  font-size:15px;
+  color: whitesmoke;
+  word-wrap: break-word;
+}
+.texto2{
+  width: 100%!important;
+  text-align: left;
+  background-color:transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size:15px;
+  color: black;
+  word-wrap: break-word;
+}
+
+#msg {
+    padding: 17px;
+    border-radius: 8px;
+    border: 0px;
+    
+}
+
+#conteudo {
+    padding:30px;
+    max-height: 80vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin:  0 0 10px 0;
+    flex-shrink: 0; 
+    width: 80%;
+} 
+
+.msg {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+  #conteudo::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+  }
+  
+  #conteudo::-webkit-scrollbar-track {
+    background: whitesmoke;       /* color of the tracking area */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  #conteudo::-webkit-scrollbar-thumb {
+    background-color: #ffc857;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #ffc857;  /* creates padding around scroll thumb */
+  }
+  .msg {
+    display:block;
+    padding: 6px 0;
+    font-size: 12px;
+    
+  }
+  .msg b{
+    display:block;
+    font-size: 15px;
+  }
+  
+
+  .eu{
+    display: flex;
+    flex-direction: column; 
+    margin: 7px 10px;
+    border-radius: 5px;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex: 1;       
+    font-size: 12px; 
+    color: whitesmoke;
+    padding: 1px;
+    flex-wrap: wrap;
+  }
+  
+          
+  .outros{
+    display: flex;
+    text-align: left;
+    border-radius: 5px;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    align-content: flex-start;
+    flex: 1;          
+    font-size: 12px;
+    background-color: lightgray;
+    background-size: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    
+  }
+  
+  .conteudo{
+    background: #f7f7f7;
+    padding: 7px 10px;
+    border-radius: 8px;
+    width: auto;
+  }
+  
+  .self{
+    background:#474350;
+    background-size: auto;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+    width: auto;
+  }
+
+  .hora{
+    font-size: 12px;
+    font-style: italic;
+    opacity: 0.8;
+  }
+
+  .mensagem{
+    font-size: 16px;
+  }
+
+  #botao1{
+    background-color: #ffc857;
+    border-radius:8px;
+    padding:15px;
+    color: #1c1c1c;
+    font-size: 15px;
+    font-family: Consolas;
+    font-weight: bold;
+    transition: 0.4s;
+    opacity: 0.5;
+
+
+
+  }
+
+  #botao1:hover{
+    opacity: 1;
+    transition: 0.4s;
+  }
+
+  .deletar{
+    margin-left:10px ;
+    background-color: #ffc857;
+    border-radius:8px;
+    padding: 8px;
+    color: #1c1c1c;
+    font-size: 11px;
+    font-family: Consolas;
+    font-weight: bold;
+    transition: 0.4s;
+
+  }
